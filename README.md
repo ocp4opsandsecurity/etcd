@@ -5,7 +5,7 @@ Check if fips is enabled to have access to proper ciphers
 ```
 oc project openshift-config
 
-oc debug node/master01.ocp4.disconnect.blue --to-namespace=node-scan --image=ubi7
+oc debug node/master01.ocp4.disconnect.blue  --image=ubi7
 
 chroot /host
 
